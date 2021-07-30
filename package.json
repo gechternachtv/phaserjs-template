@@ -1,0 +1,19 @@
+{
+    "name": "parcel-teste",
+    "version": "1.0.0",
+    "main": "build/index.html",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel src/*.html ",
+        "build": "parcel build src/index.html"
+    },
+    "staticFiles": {
+        "staticPath": ["src/scenes/test-scene/magicSheet.png"]
+    },
+    "devDependencies": {
+        "parcel": "^2.0.0-beta.2",
+        "parcel-namer-without-hash": "^0.0.1",
+        "parcel-plugin-static-files-copy": "^2.6.0",
+        "phaser": "^3.55.2"
+    }
+}
